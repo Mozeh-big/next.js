@@ -12,12 +12,15 @@ export default function Footer() {
                     <div className="mt-[15] font-bold text-lg">
                         <h3>HOME</h3>
                     </div>
-                    <div className="mt-[20] text-gray-600 hover:text-cyan-300">
+                    <div className="mt-[20] text-gray-600 cursor-pointer">
                         <ul>
-                            <li>About us</li>
-                            <li>Privacy</li>
-                            <li>Contact us</li>
-                            <li>Vision and Mission</li>
+                            <li className="hover:text-cyan-300 hover:underline hover:scale-[1.05] transition-transform duration-500 origin-left">About us</li>
+
+                            <li className="hover:text-cyan-300 hover:underline hover:scale-[1.05] transition-transform duration-500 origin-left">Privacy</li>
+
+                            <li className="hover:text-cyan-300 hover:underline hover:scale-[1.05] transition-transform duration-500 origin-left">Contact us</li>
+
+                            <li className="hover:text-cyan-300 hover:underline hover:scale-[1.05] transition-transform duration-500 origin-left">Vision and Mission</li>
                         </ul>
                     </div>
                 </div>
@@ -26,12 +29,15 @@ export default function Footer() {
                     <div>
                         <h3 className="mt-[15] font-bold text-lg">SOCIAL MEDIA</h3>
                     </div>
-                    <div className="mt-[20] text-gray-600 hover:text-cyan-300">
+                    <div className="mt-[20] text-gray-600 cursor-pointer">
                         <ul>
-                            <li>Facebook</li>
-                            <li>Instagram</li>
-                            <li>Github</li>
-                            <li>LinkedIn</li>
+                            <li className="hover:text-cyan-300 hover:underline hover:scale-[1.05] transition-transform duration-500 origin-left">Facebook</li>
+
+                            <li className="hover:text-cyan-300 hover:underline hover:scale-[1.05] transition-transform duration-500 origin-left">Instagram</li>
+
+                            <li className="hover:text-cyan-300 hover:underline hover:scale-[1.05] transition-transform duration-500 origin-left">Github</li>
+
+                            <li className="hover:text-cyan-300 hover:underline hover:scale-[1.05] transition-transform duration-500 origin-left">LinkedIn</li>
                         </ul>
                     </div>
                 </div>
@@ -40,13 +46,17 @@ export default function Footer() {
                     <div>
                         <h3 className="mt-[15] font-bold text-lg">FOCUS AREA</h3>
                     </div>
-                    <div className="mt-[20] text-gray-600 hover:text-cyan-300">
+                    <div className="mt-[20] text-gray-600 cursor-pointer">
                         <ul> 
-                            <li>Events</li>
-                            <li>Upcoming Events</li>
-                            <li>Roadmap</li>
-                            <li>Learning links</li>
-                            <li>Results</li>
+                            <li className="hover:text-cyan-300 hover:underline transform hover:scale-[1.05] transition-transform duration-500 origin-left">Events</li>
+
+                            <li className="hover:text-cyan-300 hover:underline transform hover:scale-[1.05] transition-transform duration-500 origin-left">Upcoming Events</li>
+
+                            <li className="hover:text-cyan-300 hover:underline transform hover:scale-[1.05] transition-transform duration-500 origin-left">Roadmap</li>
+
+                            <li className="hover:text-cyan-300 hover:underline hover:scale-[1.05] transition-transform duration-500 origin-left">Learning links</li>
+
+                            <li className="hover:text-cyan-300 hover:underline transform hover:scale-[1.05] transition-transform duration-500 origin-left">Results</li>
                         </ul>
                     </div>
                 </div>

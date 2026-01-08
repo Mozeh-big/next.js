@@ -1,32 +1,32 @@
- 'use client'
+'use client'
 
 import { signIn, signOut, useSession } from 'next-auth/react'
 
 export default function AuthButton() {
-//   const { data: session } = useSession()
+  //   const { data: session } = useSession()
 
-//   if (session) {
-//     return (
-//       <div className="flex items-center gap-3">
-//         <img
-//           src={session.user?.image || ''}
-//           alt={session.user?.name || ''}
-//           className="w-8 h-8 rounded-full"
-//         />
-//         <button
-//           onClick={() => signOut()}
-//           className="bg-white text-purple-600 px-4 py-2 rounded-lg hover:bg-opacity-90 transition font-semibold text-sm"
-//         >
-//           Sign Out
-//         </button>
-//       </div>
-//     )
-//   }
+  //   if (session) {
+  //     return (
+  //       <div className="flex items-center gap-3">
+  //         <img
+  //           src={session.user?.image || ''}
+  //           alt={session.user?.name || ''}
+  //           className="w-8 h-8 rounded-full"
+  //         />
+  //         <button
+  //           onClick={() => signOut()}
+  //           className="bg-white text-purple-600 px-4 py-2 rounded-lg hover:bg-opacity-90 transition font-semibold text-sm"
+  //         >
+  //           Sign Out
+  //         </button>
+  //       </div>
+  //     )
+  //   }
 
   return (
     <button
       onClick={() => signIn('google')}
-      className="bg-white text-purple-600 px-4 py-2 rounded-lg hover:bg-opacity-90 transition font-semibold text-sm whitespace-nowrap h-[36] hover:bg-cyan-300 hover:text-black"
+      className="bg-white text-purple-600 px-4 py-2 rounded-lg hover:bg-opacity-90 transition font-semibold text-sm whitespace-nowrap h-[36] hover:bg-cyan-300 hover:text-black transform hover:scale-[1.12] transition-transform duration-300 shadow-md hover:shadow-[0_0_20px_rgba(34,211,238,0.8)] transition-all cursor-pointer"
     >
       Sign In
     </button>
